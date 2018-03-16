@@ -1,0 +1,122 @@
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+
+.badge-primary {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0c7cd5;
+}
+
+.badge-secondary {
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+.badge-secondary[href]:hover,
+.badge-secondary[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #545b62;
+}
+
+.badge-success {
+    color: #ffffff;
+    background-color: #4caf50;
+}
+
+.badge-success[href]:hover,
+.badge-success[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3d8b40;
+}
+
+.badge-info {
+    color: #ffffff;
+    background-color: #00bcd4;
+}
+
+.badge-info[href]:hover,
+.badge-info[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #008fa1;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffeb3b;
+}
+
+.badge-warning[href]:hover,
+.badge-warning[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #ffe608;
+}
+
+.badge-danger {
+    color: #ffffff;
+    background-color: #f44336;
+}
+
+.badge-danger[href]:hover,
+.badge-danger[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ea1c0d;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+.badge-light[href]:hover,
+.badge-light[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #dae0e5;
+}
+
+.badge-dark {
+    color: #ffffff;
+    background-color: #343a40;
+}
+
+.badge-dark[href]:hover,
+.badge-dark[href]:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1d2124;
+}
